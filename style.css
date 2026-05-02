@@ -1,0 +1,73 @@
+body {
+  background-color: #0b0e1a;
+  color: #e0e0e0;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image:url(https://wallpaperbat.com/img/28832920-cartoon-space-background-wallpaper.jpg);  
+  background-size:cover;
+  background-color: #31374e;
+  background-blend-mode: lighten;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.container {
+  background: #191f3a;
+  padding: 25px;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+h1, h2 {
+  color: #76c7ff;
+  text-align: center;
+}
+
+button {
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #1f274b;
+  margin-top: 5px;
+  padding: 6px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: #8ac926;
+}
+#reset-btn {
+  background-color: #1f2b51;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.1);
+  width: 100%;
+  margin-top: 10px;
+}

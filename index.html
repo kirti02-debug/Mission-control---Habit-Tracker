@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mission Control Habit Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🚀Control Panel</h1>
+    <p>Astronaut Status: <span id="status">ACTIVE</span></p>
+    <p>Ship Fuel: <span id="fuel-level">100%</span></p>
+
+    <h2>🪐 Today's Missions</h2>
+    <ul id="habit-list"></ul>
+
+    <input type="text" id="habit-input" placeholder="New habit (e.g. Study 1 hour)">
+    <button id="add-btn">Add Mission</button>
+
+    <p>Daily Progress: <span id="progress">0%</span></p>
+    <p>🔥 Current Streak: <span id="streak">0</span> days</p>
+    <button id="reset-btn">🔄 Relaunch</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
